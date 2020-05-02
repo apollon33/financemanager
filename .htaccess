@@ -1,0 +1,5 @@
+ErrorDocument 400 http://pricedb.ml/badreq.php
+ErrorDocument 401 http://pricedb.ml/lock.php
+ErrorDocument 403 http://pricedb.ml/lock.php
+ErrorDocument 404 http://pricedb.ml/notfound.php
+ErrorDocument 503 http://pricedb.ml/svcunavailable.php
